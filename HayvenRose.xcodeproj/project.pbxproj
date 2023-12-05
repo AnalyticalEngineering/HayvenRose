@@ -14,6 +14,14 @@
 		122E93FB2B1F9B5C004E6E3C /* HayvenRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E93FA2B1F9B5C004E6E3C /* HayvenRoseTests.swift */; };
 		122E94052B1F9B5C004E6E3C /* HayvenRoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94042B1F9B5C004E6E3C /* HayvenRoseUITests.swift */; };
 		122E94072B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */; };
+		122E941C2B1F9CA8004E6E3C /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E941B2B1F9CA8004E6E3C /* TabModel.swift */; };
+		122E941E2B1FC64C004E6E3C /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E941D2B1FC64C004E6E3C /* TabShape.swift */; };
+		122E94202B1FC66C004E6E3C /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E941F2B1FC66C004E6E3C /* TabBarHome.swift */; };
+		122E94222B1FC68C004E6E3C /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94212B1FC68C004E6E3C /* TabPosition.swift */; };
+		122E94242B1FCA67004E6E3C /* WildLifeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94232B1FCA67004E6E3C /* WildLifeScreen.swift */; };
+		122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94252B1FCBF3004E6E3C /* LogoView.swift */; };
+		122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94272B1FD130004E6E3C /* FlagsScreen.swift */; };
+		122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94292B1FD154004E6E3C /* VehicleScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		122E94002B1F9B5C004E6E3C /* HayvenRoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayvenRoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122E94042B1F9B5C004E6E3C /* HayvenRoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseUITests.swift; sourceTree = "<group>"; };
 		122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		122E941B2B1F9CA8004E6E3C /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		122E941D2B1FC64C004E6E3C /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		122E941F2B1FC66C004E6E3C /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		122E94212B1FC68C004E6E3C /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		122E94232B1FCA67004E6E3C /* WildLifeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildLifeScreen.swift; sourceTree = "<group>"; };
+		122E94252B1FCBF3004E6E3C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		122E94272B1FD130004E6E3C /* FlagsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsScreen.swift; sourceTree = "<group>"; };
+		122E94292B1FD154004E6E3C /* VehicleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,11 @@
 		122E93E72B1F9B5B004E6E3C /* HayvenRose */ = {
 			isa = PBXGroup;
 			children = (
-				122E93E82B1F9B5B004E6E3C /* HayvenRoseApp.swift */,
-				122E93EA2B1F9B5B004E6E3C /* ContentView.swift */,
+				122E94162B1F9BEF004E6E3C /* App */,
+				122E94152B1F9BE3004E6E3C /* Resources */,
+				122E94172B1F9C0D004E6E3C /* Screens */,
+				122E94142B1F9BCA004E6E3C /* Views */,
+				122E94132B1F9BC2004E6E3C /* Models */,
 				122E93EC2B1F9B5C004E6E3C /* Assets.xcassets */,
 				122E93EE2B1F9B5C004E6E3C /* HayvenRose.entitlements */,
 				122E93EF2B1F9B5C004E6E3C /* Preview Content */,
@@ -127,6 +146,75 @@
 				122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */,
 			);
 			path = HayvenRoseUITests;
+			sourceTree = "<group>";
+		};
+		122E94132B1F9BC2004E6E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		122E94142B1F9BCA004E6E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				122E93EA2B1F9B5B004E6E3C /* ContentView.swift */,
+				122E94252B1FCBF3004E6E3C /* LogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		122E94152B1F9BE3004E6E3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				122E94182B1F9C4B004E6E3C /* TabBarPackage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		122E94162B1F9BEF004E6E3C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				122E93E82B1F9B5B004E6E3C /* HayvenRoseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		122E94172B1F9C0D004E6E3C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				122E94232B1FCA67004E6E3C /* WildLifeScreen.swift */,
+				122E94272B1FD130004E6E3C /* FlagsScreen.swift */,
+				122E94292B1FD154004E6E3C /* VehicleScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		122E94182B1F9C4B004E6E3C /* TabBarPackage */ = {
+			isa = PBXGroup;
+			children = (
+				122E941A2B1F9C6C004E6E3C /* Models */,
+				122E94192B1F9C62004E6E3C /* Views */,
+			);
+			path = TabBarPackage;
+			sourceTree = "<group>";
+		};
+		122E94192B1F9C62004E6E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				122E941D2B1FC64C004E6E3C /* TabShape.swift */,
+				122E941F2B1FC66C004E6E3C /* TabBarHome.swift */,
+				122E94212B1FC68C004E6E3C /* TabPosition.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		122E941A2B1F9C6C004E6E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				122E941B2B1F9CA8004E6E3C /* TabModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122E941C2B1F9CA8004E6E3C /* TabModel.swift in Sources */,
+				122E94202B1FC66C004E6E3C /* TabBarHome.swift in Sources */,
+				122E94242B1FCA67004E6E3C /* WildLifeScreen.swift in Sources */,
+				122E94222B1FC68C004E6E3C /* TabPosition.swift in Sources */,
+				122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */,
+				122E941E2B1FC64C004E6E3C /* TabShape.swift in Sources */,
+				122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */,
 				122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */,
+				122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */,
 				122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

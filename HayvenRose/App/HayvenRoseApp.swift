@@ -11,7 +11,7 @@ import SwiftUI
 struct HayvenRoseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarHome()
         }
     }
 }
