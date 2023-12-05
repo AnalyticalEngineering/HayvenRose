@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E93E82B1F9B5B004E6E3C /* HayvenRoseApp.swift */; };
+		122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E93EA2B1F9B5B004E6E3C /* ContentView.swift */; };
+		122E93ED2B1F9B5C004E6E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122E93EC2B1F9B5C004E6E3C /* Assets.xcassets */; };
+		122E93F12B1F9B5C004E6E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122E93F02B1F9B5C004E6E3C /* Preview Assets.xcassets */; };
+		122E93FB2B1F9B5C004E6E3C /* HayvenRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E93FA2B1F9B5C004E6E3C /* HayvenRoseTests.swift */; };
+		122E94052B1F9B5C004E6E3C /* HayvenRoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94042B1F9B5C004E6E3C /* HayvenRoseUITests.swift */; };
+		122E94072B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		122E93F72B1F9B5C004E6E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122E93DD2B1F9B5B004E6E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122E93E42B1F9B5B004E6E3C;
+			remoteInfo = HayvenRose;
+		};
+		122E94012B1F9B5C004E6E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122E93DD2B1F9B5B004E6E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122E93E42B1F9B5B004E6E3C;
+			remoteInfo = HayvenRose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		122E93E52B1F9B5B004E6E3C /* HayvenRose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HayvenRose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122E93E82B1F9B5B004E6E3C /* HayvenRoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseApp.swift; sourceTree = "<group>"; };
+		122E93EA2B1F9B5B004E6E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		122E93EC2B1F9B5C004E6E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		122E93EE2B1F9B5C004E6E3C /* HayvenRose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HayvenRose.entitlements; sourceTree = "<group>"; };
+		122E93F02B1F9B5C004E6E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		122E93F62B1F9B5C004E6E3C /* HayvenRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayvenRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		122E93FA2B1F9B5C004E6E3C /* HayvenRoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseTests.swift; sourceTree = "<group>"; };
+		122E94002B1F9B5C004E6E3C /* HayvenRoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HayvenRoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		122E94042B1F9B5C004E6E3C /* HayvenRoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseUITests.swift; sourceTree = "<group>"; };
+		122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvenRoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122E93E22B1F9B5B004E6E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93F32B1F9B5C004E6E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93FD2B1F9B5C004E6E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122E93DC2B1F9B5B004E6E3C = {
+			isa = PBXGroup;
+			children = (
+				122E93E72B1F9B5B004E6E3C /* HayvenRose */,
+				122E93F92B1F9B5C004E6E3C /* HayvenRoseTests */,
+				122E94032B1F9B5C004E6E3C /* HayvenRoseUITests */,
+				122E93E62B1F9B5B004E6E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		122E93E62B1F9B5B004E6E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122E93E52B1F9B5B004E6E3C /* HayvenRose.app */,
+				122E93F62B1F9B5C004E6E3C /* HayvenRoseTests.xctest */,
+				122E94002B1F9B5C004E6E3C /* HayvenRoseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122E93E72B1F9B5B004E6E3C /* HayvenRose */ = {
+			isa = PBXGroup;
+			children = (
+				122E93E82B1F9B5B004E6E3C /* HayvenRoseApp.swift */,
+				122E93EA2B1F9B5B004E6E3C /* ContentView.swift */,
+				122E93EC2B1F9B5C004E6E3C /* Assets.xcassets */,
+				122E93EE2B1F9B5C004E6E3C /* HayvenRose.entitlements */,
+				122E93EF2B1F9B5C004E6E3C /* Preview Content */,
+			);
+			path = HayvenRose;
+			sourceTree = "<group>";
+		};
+		122E93EF2B1F9B5C004E6E3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				122E93F02B1F9B5C004E6E3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		122E93F92B1F9B5C004E6E3C /* HayvenRoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				122E93FA2B1F9B5C004E6E3C /* HayvenRoseTests.swift */,
+			);
+			path = HayvenRoseTests;
+			sourceTree = "<group>";
+		};
+		122E94032B1F9B5C004E6E3C /* HayvenRoseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				122E94042B1F9B5C004E6E3C /* HayvenRoseUITests.swift */,
+				122E94062B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift */,
+			);
+			path = HayvenRoseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122E93E42B1F9B5B004E6E3C /* HayvenRose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122E940A2B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRose" */;
+			buildPhases = (
+				122E93E12B1F9B5B004E6E3C /* Sources */,
+				122E93E22B1F9B5B004E6E3C /* Frameworks */,
+				122E93E32B1F9B5B004E6E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HayvenRose;
+			productName = HayvenRose;
+			productReference = 122E93E52B1F9B5B004E6E3C /* HayvenRose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		122E93F52B1F9B5C004E6E3C /* HayvenRoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122E940D2B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRoseTests" */;
+			buildPhases = (
+				122E93F22B1F9B5C004E6E3C /* Sources */,
+				122E93F32B1F9B5C004E6E3C /* Frameworks */,
+				122E93F42B1F9B5C004E6E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122E93F82B1F9B5C004E6E3C /* PBXTargetDependency */,
+			);
+			name = HayvenRoseTests;
+			productName = HayvenRoseTests;
+			productReference = 122E93F62B1F9B5C004E6E3C /* HayvenRoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		122E93FF2B1F9B5C004E6E3C /* HayvenRoseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122E94102B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRoseUITests" */;
+			buildPhases = (
+				122E93FC2B1F9B5C004E6E3C /* Sources */,
+				122E93FD2B1F9B5C004E6E3C /* Frameworks */,
+				122E93FE2B1F9B5C004E6E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122E94022B1F9B5C004E6E3C /* PBXTargetDependency */,
+			);
+			name = HayvenRoseUITests;
+			productName = HayvenRoseUITests;
+			productReference = 122E94002B1F9B5C004E6E3C /* HayvenRoseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		122E93DD2B1F9B5B004E6E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					122E93E42B1F9B5B004E6E3C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					122E93F52B1F9B5C004E6E3C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 122E93E42B1F9B5B004E6E3C;
+					};
+					122E93FF2B1F9B5C004E6E3C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 122E93E42B1F9B5B004E6E3C;
+					};
+				};
+			};
+			buildConfigurationList = 122E93E02B1F9B5B004E6E3C /* Build configuration list for PBXProject "HayvenRose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 122E93DC2B1F9B5B004E6E3C;
+			productRefGroup = 122E93E62B1F9B5B004E6E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122E93E42B1F9B5B004E6E3C /* HayvenRose */,
+				122E93F52B1F9B5C004E6E3C /* HayvenRoseTests */,
+				122E93FF2B1F9B5C004E6E3C /* HayvenRoseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122E93E32B1F9B5B004E6E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122E93F12B1F9B5C004E6E3C /* Preview Assets.xcassets in Resources */,
+				122E93ED2B1F9B5C004E6E3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93F42B1F9B5C004E6E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93FE2B1F9B5C004E6E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122E93E12B1F9B5B004E6E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */,
+				122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93F22B1F9B5C004E6E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122E93FB2B1F9B5C004E6E3C /* HayvenRoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122E93FC2B1F9B5C004E6E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122E94072B1F9B5C004E6E3C /* HayvenRoseUITestsLaunchTests.swift in Sources */,
+				122E94052B1F9B5C004E6E3C /* HayvenRoseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		122E93F82B1F9B5C004E6E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122E93E42B1F9B5B004E6E3C /* HayvenRose */;
+			targetProxy = 122E93F72B1F9B5C004E6E3C /* PBXContainerItemProxy */;
+		};
+		122E94022B1F9B5C004E6E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122E93E42B1F9B5B004E6E3C /* HayvenRose */;
+			targetProxy = 122E94012B1F9B5C004E6E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		122E94082B1F9B5C004E6E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		122E94092B1F9B5C004E6E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		122E940B2B1F9B5C004E6E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HayvenRose/HayvenRose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HayvenRose/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		122E940C2B1F9B5C004E6E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HayvenRose/HayvenRose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HayvenRose/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		122E940E2B1F9B5C004E6E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HayvenRose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HayvenRose";
+			};
+			name = Debug;
+		};
+		122E940F2B1F9B5C004E6E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HayvenRose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HayvenRose";
+			};
+			name = Release;
+		};
+		122E94112B1F9B5C004E6E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HayvenRose;
+			};
+			name = Debug;
+		};
+		122E94122B1F9B5C004E6E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.HayvenRoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HayvenRose;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122E93E02B1F9B5B004E6E3C /* Build configuration list for PBXProject "HayvenRose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122E94082B1F9B5C004E6E3C /* Debug */,
+				122E94092B1F9B5C004E6E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122E940A2B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122E940B2B1F9B5C004E6E3C /* Debug */,
+				122E940C2B1F9B5C004E6E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122E940D2B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122E940E2B1F9B5C004E6E3C /* Debug */,
+				122E940F2B1F9B5C004E6E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122E94102B1F9B5C004E6E3C /* Build configuration list for PBXNativeTarget "HayvenRoseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122E94112B1F9B5C004E6E3C /* Debug */,
+				122E94122B1F9B5C004E6E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 122E93DD2B1F9B5B004E6E3C /* Project object */;
+}
