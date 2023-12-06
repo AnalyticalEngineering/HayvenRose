@@ -15,13 +15,20 @@ struct WildLifeScreen: View {
                 VStack{
                     //MARK:  LOGO VIEW
                     LogoView()
+                        .padding(.horizontal)
                     HStack {
-                        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                        CardView(isFaceUp: true)
+                        CardView()
+                        CardView()
+                        CardView()
+                    }
+                    .foregroundStyle(.purple)
+                    .padding()
                     }
                 }
             }
         }
-    }
+    
 
 
 #Preview {

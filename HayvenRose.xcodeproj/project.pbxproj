@@ -22,6 +22,7 @@
 		122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94252B1FCBF3004E6E3C /* LogoView.swift */; };
 		122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94272B1FD130004E6E3C /* FlagsScreen.swift */; };
 		122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94292B1FD154004E6E3C /* VehicleScreen.swift */; };
+		122E942C2B1FD2DA004E6E3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E942B2B1FD2DA004E6E3C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		122E94252B1FCBF3004E6E3C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		122E94272B1FD130004E6E3C /* FlagsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsScreen.swift; sourceTree = "<group>"; };
 		122E94292B1FD154004E6E3C /* VehicleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScreen.swift; sourceTree = "<group>"; };
+		122E942B2B1FD2DA004E6E3C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				122E941D2B1FC64C004E6E3C /* TabShape.swift */,
 				122E941F2B1FC66C004E6E3C /* TabBarHome.swift */,
 				122E94212B1FC68C004E6E3C /* TabPosition.swift */,
+				122E942B2B1FD2DA004E6E3C /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */,
 				122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */,
 				122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */,
+				122E942C2B1FD2DA004E6E3C /* CardView.swift in Sources */,
 				122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

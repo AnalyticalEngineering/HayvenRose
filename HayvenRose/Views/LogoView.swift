@@ -16,7 +16,7 @@ struct LogoView: View {
             // MARK: - Left Text
             Spacer()
             Text("iMemorize")
-                          .font(.title)
+                          .font(.title2)
                           .fontWeight(.heavy)
                           .foregroundStyle(.primary) // Use the defined textColor
             
@@ -29,7 +29,7 @@ struct LogoView: View {
             
             // MARK: - Right Text
             Text("BrainPower")
-                           .font(.title)
+                           .font(.title2)
                            .fontWeight(.heavy)
                            .foregroundStyle(.primary) // Use the defined textColor
             Spacer()
