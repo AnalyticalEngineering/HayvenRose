@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WildLifeScreen: View {
+    
     var body: some View {
         
             ZStack {
@@ -16,14 +17,7 @@ struct WildLifeScreen: View {
                     //MARK:  LOGO VIEW
                     LogoView()
                         .padding(.horizontal)
-                    HStack {
-                        CardView(isFaceUp: true)
-                        CardView()
-                        CardView()
-                        CardView()
-                    }
-                    .foregroundStyle(.purple)
-                    .padding()
+                 
                     }
                 }
             }
@@ -34,3 +28,7 @@ struct WildLifeScreen: View {
 #Preview {
     WildLifeScreen()
 }
+
+
+
+
