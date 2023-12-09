@@ -9,61 +9,80 @@ import SwiftUI
 
 struct ContentView: View {
     //MARK:  PROPERTIES
-    let emojis: [String] = ["🐶", "🐼", "🦊", "🐨", "🐸", "🌹"]
-    var cardCount: Int = 4
+    let emojis: [String] = ["🐶", "🐼", "🦊", "🐨", "🐸", "🌹","🐶", "🐼", "🦊", "🐨", "🐸", "🌹"]
+    @ State var cardCount: Int = 12
     
+    
+    private let adaptive =
+    [
+        GridItem(.adaptive(minimum: 55))
+    ]
     var body: some View {
-        VStack{
-            LogoView()
-            
-            
-            HStack{
-                ForEach(emojis.indices, id: \.self)  { index in
-                    
-                    CardView(content:  emojis[index])
-                    
-                    
+        NavigationStack {
+            ZStack(alignment: Alignment(horizontal: .trailing, vertical: .bottom)){
+                ScrollView(.vertical, showsIndicators: false)  {
+                    VStack{
+                        // Lazy CARD LIST
+                        LazyVGrid(columns: adaptive) {
+                            
+                            ForEach(0..<cardCount, id: \.self)  { index in
+                                // CARD VIEW
+                                CardView(content:  emojis[index])
+                                    
+                            }
+                            .foregroundStyle(.orange)
+                        }
+                    }
                 }
+                //MARK:  TOOL BAR
+                        .toolbar {
+                            //add card button
+                            ToolbarItem(id: "Add", placement: .topBarLeading, content: {
+                                addCardFunc
+                            })
+                       // Logo
+                            ToolbarItem(id: "Logo", placement: .principal, content: {
+                               LogoView()
+                            })
+                            //remove card button
+                            ToolbarItem(id: "Remove", placement: .topBarTrailing, content: {
+                                cardRemover
+                            })
+                        }
+                        .foregroundStyle(.blue)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    }
+                }
+                .padding(.horizontal)
+                .padding(.top)
             }
-            .foregroundStyle(.orange)
-            .padding()
-        }
+//MARK:  FUNCTIONS
+    
+//Card Count Function
+    func cardCountAdjuster(by offset: Int, symbol: String ) -> some View {
+        Button(action: {
+                cardCount += offset
+                HapticManager.notification(type: .success)
+        }, label: {
+            Image(systemName: symbol)
+        })
+        .disabled(cardCount + offset < 1  ||  cardCount + offset > emojis.count)
     }
+    
+//  Add Card Function
+    var addCardFunc:  some View {
+        cardCountAdjuster(by: +1, symbol: "rectangle.stack.badge.plus.fill")
+    }
+        
+// Card Remover Function
+        var cardRemover:  some View {
+          cardCountAdjuster(by: -1, symbol: "rectangle.stack.badge.minus.fill")
+        }
+    
 }
-        #Preview {
+ #Preview {
             ContentView()
         }
-        
     
-
-
-#Preview {
-WildLifeScreen()
-}
-
-
-struct CardView: View {
-    let content: String
-   
-   
-    @State var isFaceUp = false
-    
-    var body: some View {
-       
-
-        ZStack {
-            let base = RoundedRectangle(cornerRadius: 12)
-            if isFaceUp {
-                base.fill(.white)
-                base.strokeBorder(lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-                Text("🌹").font(.largeTitle)
-            } else {
-                base.fill( )
-            }
-        }
-        .onTapGesture {
-            isFaceUp = !isFaceUp
-        }
-    }
-}
 

@@ -22,6 +22,9 @@
 		122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94252B1FCBF3004E6E3C /* LogoView.swift */; };
 		122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94272B1FD130004E6E3C /* FlagsScreen.swift */; };
 		122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94292B1FD154004E6E3C /* VehicleScreen.swift */; };
+		1277D9F62B20FE72004C0E1C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F52B20FE72004C0E1C /* HapticsManager.swift */; };
+		1277D9F82B24E67F004C0E1C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F72B24E67F004C0E1C /* CardView.swift */; };
+		1277D9FA2B24E715004C0E1C /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F92B24E715004C0E1C /* CardListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		122E94252B1FCBF3004E6E3C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		122E94272B1FD130004E6E3C /* FlagsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsScreen.swift; sourceTree = "<group>"; };
 		122E94292B1FD154004E6E3C /* VehicleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScreen.swift; sourceTree = "<group>"; };
+		1277D9F52B20FE72004C0E1C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		1277D9F72B24E67F004C0E1C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1277D9F92B24E715004C0E1C /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		122E93E72B1F9B5B004E6E3C /* HayvenRose */ = {
 			isa = PBXGroup;
 			children = (
+				1277D9F42B20FE5F004C0E1C /* Managers */,
 				122E94162B1F9BEF004E6E3C /* App */,
 				122E94152B1F9BE3004E6E3C /* Resources */,
 				122E94172B1F9C0D004E6E3C /* Screens */,
@@ -160,6 +167,8 @@
 			children = (
 				122E93EA2B1F9B5B004E6E3C /* ContentView.swift */,
 				122E94252B1FCBF3004E6E3C /* LogoView.swift */,
+				1277D9F72B24E67F004C0E1C /* CardView.swift */,
+				1277D9F92B24E715004C0E1C /* CardListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +224,14 @@
 				122E941B2B1F9CA8004E6E3C /* TabModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1277D9F42B20FE5F004C0E1C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1277D9F52B20FE72004C0E1C /* HapticsManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,11 +368,14 @@
 				122E94202B1FC66C004E6E3C /* TabBarHome.swift in Sources */,
 				122E94242B1FCA67004E6E3C /* WildLifeScreen.swift in Sources */,
 				122E94222B1FC68C004E6E3C /* TabPosition.swift in Sources */,
+				1277D9F62B20FE72004C0E1C /* HapticsManager.swift in Sources */,
 				122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */,
 				122E941E2B1FC64C004E6E3C /* TabShape.swift in Sources */,
 				122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */,
 				122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */,
 				122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */,
+				1277D9F82B24E67F004C0E1C /* CardView.swift in Sources */,
+				1277D9FA2B24E715004C0E1C /* CardListView.swift in Sources */,
 				122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,26 +14,23 @@ struct LogoView: View {
         //MARK:  LOGO VIEW 
         HStack(spacing: 2) {
             // MARK: - Left Text
-            Spacer()
-            Text("iMemorize")
-                          .font(.title2)
-                          .fontWeight(.heavy)
-                          .foregroundStyle(.primary) // Use the defined textColor
-            
+        
+    
             // MARK: - Logo Image
-            Image("logo")
+            Image(systemName: "lightbulb.max.fill")
                 .resizable()
                 .scaledToFit()
-                .foregroundColor(.orange) // Use the defined teal color
-                .frame(width: 70, height:70, alignment: .center)
-            
+                .foregroundColor(.yellow) // Use the defined teal color
+                .padding(.horizontal, 1)
             // MARK: - Right Text
-            Text("BrainPower")
+            Text("iMemorize")
                            .font(.title2)
                            .fontWeight(.heavy)
                            .foregroundStyle(.primary) // Use the defined textColor
-            Spacer()
-        }.padding(.all, 1)
+            
+        }
+        .frame(width: 250)
+    
     }
 }
 
