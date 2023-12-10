@@ -11,7 +11,7 @@ struct ContentView: View {
     //MARK:  PROPERTIES
     let emojis: [String] = ["🐶", "🐼", "🦊", "🐨", "🐸", "🌹","🐶", "🐼", "🦊", "🐨", "🐸", "🌹"]
     @ State var cardCount: Int = 12
-    
+    var viewModel: EmojiMemorizeGame
     
     private let adaptive =
     [
@@ -22,7 +22,7 @@ struct ContentView: View {
             ZStack(alignment: Alignment(horizontal: .trailing, vertical: .bottom)){
                 ScrollView(.vertical, showsIndicators: false)  {
                     VStack{
-                        // Lazy CARD LIST
+                        // LAZY CARD LIST
                         LazyVGrid(columns: adaptive) {
                             
                             ForEach(0..<cardCount, id: \.self)  { index in
@@ -82,7 +82,7 @@ struct ContentView: View {
     
 }
  #Preview {
-            ContentView()
+     ContentView( )
         }
     
 

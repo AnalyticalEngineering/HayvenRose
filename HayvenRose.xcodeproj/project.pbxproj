@@ -24,7 +24,8 @@
 		122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E94292B1FD154004E6E3C /* VehicleScreen.swift */; };
 		1277D9F62B20FE72004C0E1C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F52B20FE72004C0E1C /* HapticsManager.swift */; };
 		1277D9F82B24E67F004C0E1C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F72B24E67F004C0E1C /* CardView.swift */; };
-		1277D9FA2B24E715004C0E1C /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D9F92B24E715004C0E1C /* CardListView.swift */; };
+		128053792B2663DE003E6351 /* iMemorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128053782B2663DE003E6351 /* iMemorize.swift */; };
+		1280537B2B266577003E6351 /* EmojiMemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280537A2B266577003E6351 /* EmojiMemorizeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +67,8 @@
 		122E94292B1FD154004E6E3C /* VehicleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScreen.swift; sourceTree = "<group>"; };
 		1277D9F52B20FE72004C0E1C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		1277D9F72B24E67F004C0E1C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		1277D9F92B24E715004C0E1C /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		128053782B2663DE003E6351 /* iMemorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMemorize.swift; sourceTree = "<group>"; };
+		1280537A2B266577003E6351 /* EmojiMemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemorizeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,8 @@
 		122E94132B1F9BC2004E6E3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				128053782B2663DE003E6351 /* iMemorize.swift */,
+				1280537A2B266577003E6351 /* EmojiMemorizeGame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,7 +172,6 @@
 				122E93EA2B1F9B5B004E6E3C /* ContentView.swift */,
 				122E94252B1FCBF3004E6E3C /* LogoView.swift */,
 				1277D9F72B24E67F004C0E1C /* CardView.swift */,
-				1277D9F92B24E715004C0E1C /* CardListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -372,10 +375,11 @@
 				122E94282B1FD130004E6E3C /* FlagsScreen.swift in Sources */,
 				122E941E2B1FC64C004E6E3C /* TabShape.swift in Sources */,
 				122E94262B1FCBF3004E6E3C /* LogoView.swift in Sources */,
+				1280537B2B266577003E6351 /* EmojiMemorizeGame.swift in Sources */,
+				128053792B2663DE003E6351 /* iMemorize.swift in Sources */,
 				122E93EB2B1F9B5B004E6E3C /* ContentView.swift in Sources */,
 				122E942A2B1FD154004E6E3C /* VehicleScreen.swift in Sources */,
 				1277D9F82B24E67F004C0E1C /* CardView.swift in Sources */,
-				1277D9FA2B24E715004C0E1C /* CardListView.swift in Sources */,
 				122E93E92B1F9B5B004E6E3C /* HayvenRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
